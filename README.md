@@ -3,7 +3,7 @@ Light-Cache is a easy way to cache data with auto-expiring in the filesystem.
 
 ## Usage:
 Create a cache file which has a expiration time of 10 minutes.
-After 10 minutes, the cache file will be automatically invalid, "cache.get" returns false and deletes the file.
+After 10 minutes, the cache file will automatically be invalid, "cache.get" returns false and deletes the file.
 ```python
 >>> from light_cache import Cache
 >>> cache = Cache()
