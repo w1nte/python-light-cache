@@ -1,5 +1,5 @@
 # light-cache 1.0.0
-Light-Cache is a easy way to cache data with auto-expiring in the filesystem.
+Light-Cache is a simple way to cache data with auto-expiring in the filesystem.
 
 ## Usage:
 Create a cache file which has a expiration time of 10 minutes.
